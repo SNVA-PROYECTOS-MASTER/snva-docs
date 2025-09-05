@@ -3,9 +3,17 @@ title: Empresa
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Ir a la configuración de la empresa
+![General Company](../../../../assets/e-invoicing/general_company.png)
 
-## Further reading
+Rellenar la información de ciudadP
+![Company Address](../../../../assets/e-invoicing/company_address.png)
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+Ir al contacto relacionado
+![Company Address](../../../../assets/e-invoicing/company_contact_rel.png)
+
+Rellenar la información
+![Contact](../../../../assets/e-invoicing/contact.png)
+
+Ir a la pestaña de facturación electrónica y rellenar la información (Todos los marcados en rojo)
+![Contact](../../../../assets/e-invoicing/company_e_invoicing.png)

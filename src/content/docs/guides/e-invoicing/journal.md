@@ -3,9 +3,11 @@ title: Diario
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Crea uno nuevo si no existe (importante marcar el check de facturación electronica)
+![Contact](../../../../assets/e-invoicing/journal.png)
 
-## Further reading
+Ahora en la pestaña de secuencia da click sobre el registro de Entry Sequence
+![Contact](../../../../assets/e-invoicing/journal_sequence.png)
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+En el registro que se abre configurar los datos con el set de pruebas proporcionado
+![Contact](../../../../assets/e-invoicing/journal_sequence2.png)

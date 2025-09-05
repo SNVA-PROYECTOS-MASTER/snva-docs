@@ -36,6 +36,11 @@ export default defineConfig({
 							// slug: 'guides/e-payroll',
 							items: [
 								{
+									label: 'Instalación',
+									slug: 'guides/e-invoicing/setup',
+									collapsed: true
+								},
+								{
 									label: 'Empresa',
 									slug: 'guides/e-invoicing/company',
 									collapsed: true
@@ -48,6 +53,53 @@ export default defineConfig({
 								{
 									label: 'Diario',
 									slug: 'guides/e-invoicing/journal',
+									collapsed: true
+								},
+								{
+									label: 'Factura',
+									slug: 'guides/e-invoicing/invoice',
+									collapsed: true
+								},
+							]
+						},
+						{ 
+							label: 'Seguridad Social',
+							collapsed: true,
+							// slug: 'guides/e-payroll',
+							items: [
+								{
+									label: 'Instalación',
+									slug: 'guides/social-security/setup',
+									collapsed: true
+								},
+								{
+									label: 'Empresa',
+									slug: 'guides/social-security/employee',
+									collapsed: true
+								},
+								{
+									label: 'Contacto',
+									slug: 'guides/social-security/contract',
+									collapsed: true
+								},
+								{
+									label: 'Entidades Sociales',
+									slug: 'guides/social-security/social-entities',
+									collapsed: true
+								},
+								{
+									label: 'Datos anuales',
+									slug: 'guides/social-security/annual-data',
+									collapsed: true
+								},
+								{
+									label: 'Reglas Salariales',
+									slug: 'guides/social-security/salary-rules',
+									collapsed: true
+								},
+								{
+									label: 'Tipos de entrada de trabajo',
+									slug: 'guides/social-security/work-entry-type',
 									collapsed: true
 								},
 							]
