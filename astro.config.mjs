@@ -74,6 +74,11 @@ export default defineConfig({
 								},
 								{
 									label: 'Empresa',
+									slug: 'guides/social-security/company',
+									collapsed: true
+								},
+								{
+									label: 'Empleado',
 									slug: 'guides/social-security/employee',
 									collapsed: true
 								},
