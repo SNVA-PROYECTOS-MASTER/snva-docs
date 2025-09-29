@@ -2,17 +2,26 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sinovaLogo from './src/assets/logo-sinova.png';
-// import './src/styles/global.css';
+import sinovaDarkLogo from './src/assets/logo-sinova-dark.png';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://odoo-docs.sinova.co',
 	trailingSlash: "always",
+	i18n: {
+		locales: ["es"],
+		defaultLocale: "es",
+	},
 	integrations: [
 		starlight({
-			title: 'Documentación',
+			title: 'Documentación',			
 			customCss: ['./src/styles/global.css'],
-			logo: { src: sinovaLogo, alt: 'SINOVA' },
+			logo: {
+				light: sinovaLogo,      // logo para tema claro
+				dark: sinovaDarkLogo,  // logo para tema oscuro
+				alt: 'SINOVA',
+				replacesTitle: false
+			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://www.sinova.co/', target:"_blank" }],
 			sidebar: [
 				{

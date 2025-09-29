@@ -1,5 +1,5 @@
 ---
-title: "Retención en la fuente - Nómina"
+title: "Retención en la fuente - nómina"
 description: "Este módulo permite crear una pestaña llamada Novedades en la vista de las nóminas ya creadas con el objetivo que registrar cada novedad asociada a la nómina correspondiente y definir a que tipo pertenece."
 ---
 
