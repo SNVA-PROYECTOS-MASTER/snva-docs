@@ -1,35 +1,130 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sinovaLogo from './src/assets/logo-sinova.png';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://odoo-docs.sinova.co',
+	trailingSlash: "always",
 	integrations: [
 		starlight({
-			title: 'SNVA Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Documentación',
+			logo: { src: sinovaLogo, alt: 'SINOVA' },
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://www.sinova.co/', target:"_blank" }],
 			sidebar: [
 				{
-					label: 'Documentos para el usuario',
+					label: 'Productos',
 					items: [
 						{ 
-							label: 'Nómina Electrónica',
+							label: '📑 Nómina electrónica',
 							collapsed: true,
-							// slug: 'guides/e-payroll',
 							items: [
 								{
-									label: 'Empleado',
-									slug: 'guides/e-payroll/employee',
+									label: '⚙️ Instalación',
+									slug: 'guides/e-payroll/installation',
 									collapsed: true
 								},
 								{
-									label: 'Contrato',
-									slug: 'guides/e-payroll/contract',
-									collapsed: true
+									label: '🧾 Nómina base',
+									collapsed: true,
+									items: [
+										{
+											label: '📝 Campos personalizados en contrato',
+											slug: 'guides/e-payroll/base_payroll/contract_fields',
+											collapsed: true
+										},
+										{
+											label: '📊 Nómina electrónica base',
+											slug: 'guides/e-payroll/base_payroll/co_e_payroll',
+											collapsed: true
+										},
+										{
+											label: '💡 Nómina electrónica plus',
+											slug: 'guides/e-payroll/base_payroll/co_e_payroll_plus',
+											collapsed: true
+										},
+										{
+											label: '💰 Retención en nómina',
+											slug: 'guides/e-payroll/base_payroll/withholding_payroll',
+											collapsed: true
+										},
+										{
+											label: '🤝 Prestaciones sociales',
+											slug: 'guides/e-payroll/base_payroll/social_benefits',
+											collapsed: true
+										},
+										{
+											label: '🌴 Pasivo vacacional',
+											slug: 'guides/e-payroll/base_payroll/vacation_liability',
+											collapsed: true
+										},
+										{
+											label: '🎨 Personalización en nómina',
+											slug: 'guides/e-payroll/base_payroll/payroll_customization',
+											collapsed: true
+										},
+										{
+											label: '🏦 Préstamo para empleados',
+											slug: 'guides/e-payroll/base_payroll/employee_loan',
+											collapsed: true
+										},
+										{
+											label: '📐 Reglas salariales',
+											slug: 'guides/e-payroll/base_payroll/salary_rules',
+											collapsed: true
+										},
+										{
+											label: '🛡️ Seguridad social',
+											slug: 'guides/e-payroll/base_payroll/social_security',
+											collapsed: true
+										}
+									]
+								},
+								{
+									label: '🧾 Nómina plus',
+									collapsed: true,
+									items: [
+										{
+											label: '📑 Reportes DIAN',
+											slug: 'guides/e-payroll/plus_payroll/dian_report',
+											collapsed: true
+										},
+										{
+											label: '🔄 Novedades de nómina',
+											slug: 'guides/e-payroll/plus_payroll/novelty_payroll',
+											collapsed: true
+										},
+										{
+											label: '📊 Reportes personalizados de nómina',
+											slug: 'guides/e-payroll/plus_payroll/custom_payroll_report',
+											collapsed: true
+										},
+										{
+											label: '🌴 Contabilización de pasivo por vacaciones',
+											slug: 'guides/e-payroll/plus_payroll/vacation_accounting',
+											collapsed: true
+										},
+										{
+											label: '👥 Portal nómina',
+											slug: 'guides/e-payroll/plus_payroll/payroll_portal',
+											collapsed: true
+										},
+										{
+											label: '💰 Reporte de retención',
+											slug: 'guides/e-payroll/plus_payroll/withholding_report',
+											collapsed: true
+										}
+									]
 								}
 							]
 						},
+
+					]
+				},
+				{
+					label: 'Documentos para el usuario',
+					items: [
 						{ 
 							label: 'Facturación Electrónica',
 							collapsed: true,
