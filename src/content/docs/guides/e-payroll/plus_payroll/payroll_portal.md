@@ -47,10 +47,7 @@ Para instalar este módulo:
 ### ⚙️ Cómo usar
 El funcionamiento de este módulo se describe a continuación:
 
-<iframe src="https://drive.google.com/file/d/1x1YaSuit1lBjKIDJ3rCQzJ1XyGYOVCMf/preview"
-        width="100%"
-        height="320"
-        allow="autoplay">
+<iframe src="https://drive.google.com/file/d/1x1YaSuit1lBjKIDJ3rCQzJ1XyGYOVCMf/preview" width="100%" height="320" allow="autoplay">
 </iframe>
 
 ### 📚 Licencia

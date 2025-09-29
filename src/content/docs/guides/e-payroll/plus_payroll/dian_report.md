@@ -51,10 +51,7 @@ Para instalar este módulo:
 ### ⚙️ Cómo usar
 El funcionamiento de este módulo se describe a continuación:
 
-<iframe src="https://drive.google.com/file/d/1pA-YIHldBU8OYPoWL6h7t85RKPmPiWVj/preview"
-        width="100%"
-        height="320"
-        allow="autoplay">
+<iframe src="https://drive.google.com/file/d/1pA-YIHldBU8OYPoWL6h7t85RKPmPiWVj/preview" width="100%" height="320" allow="autoplay">
 </iframe>
 
 ### 📚 Licencia

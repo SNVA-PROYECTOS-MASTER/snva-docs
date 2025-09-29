@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sinovaLogo from './src/assets/logo-sinova.png';
+// import './src/styles/global.css';
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,6 +11,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Documentación',
+			customCss: ['./src/styles/global.css'],
 			logo: { src: sinovaLogo, alt: 'SINOVA' },
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://www.sinova.co/', target:"_blank" }],
 			sidebar: [

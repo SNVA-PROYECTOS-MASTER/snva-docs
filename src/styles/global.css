@@ -1,0 +1,5 @@
+iframe {
+  height: 380px !important;
+  width: 100% !important;
+  min-width: 500px !important;
+}

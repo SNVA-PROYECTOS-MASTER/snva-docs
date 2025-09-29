@@ -52,10 +52,7 @@ Para instalar este módulo:
 </details>
 
 ### ⚙️ Cómo usar
-<iframe src="https://drive.google.com/file/d/1LtMD2NDVRbFq5-vF5U3WJ_xmgzdRT6hl/preview"
-        width="100%"
-        height="320"
-        allow="autoplay">
+<iframe src="https://drive.google.com/file/d/1LtMD2NDVRbFq5-vF5U3WJ_xmgzdRT6hl/preview" width="100%" height="320" allow="autoplay">
 </iframe>
 
 ### 📜 Licencia
