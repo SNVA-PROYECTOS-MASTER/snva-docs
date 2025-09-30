@@ -58,6 +58,11 @@ Para instalar este módulo:
 3. Luego  en la seccion de contrato
 4. En esta parte se encuentra el tipo de contrato y en la pestaña denominada **Fiscales y Seguridad** estan los demas campos.
 
+Más información:
+
+<iframe src="https://drive.google.com/file/d/1Qdh-bpJdb0ciK8wVaEZX6bxrIJ5ujoBO/preview" width="100%" height="320" allow="autoplay">
+</iframe>
+
 
 ### 📜 Licencia
 
