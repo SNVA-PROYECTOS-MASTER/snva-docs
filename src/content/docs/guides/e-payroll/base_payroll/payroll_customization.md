@@ -1,5 +1,5 @@
 ---
-title: "SNVA - Payroll"
+title: "Personalización en nómina"
 description: "Módulo avanzado para la gestión de nómina en Odoo. Incluye cálculos automáticos, apartado de Datos Anuales y reglas salariales personalizables."
 ---
 

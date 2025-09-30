@@ -1,5 +1,5 @@
 ---
-title: "Retención en la fuente - Nómina"
+title: "Retención en la fuente - nómina"
 description: "Módulo para calcular y gestionar la retención en la fuente sobre la nómina en Odoo, cumpliendo con el Artículo 385 del ET en Colombia."
 ---
 
