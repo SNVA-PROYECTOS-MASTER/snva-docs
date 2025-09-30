@@ -52,7 +52,7 @@ Para instalar este módulo:
 3. Accede a contratos en la sección de pasivo vacacional 
 4. Aplica los montos calculados en los contratos y pagos de empleados.
 
-![Elementos gráficos](/src/assets/e_payroll/vacation-liability.gif)
+![Elementos gráficos](/assets/e_payroll/vacation-liability.gif)
 
 ### 📜 Licencia
 

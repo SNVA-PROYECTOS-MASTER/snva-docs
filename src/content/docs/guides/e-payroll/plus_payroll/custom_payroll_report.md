@@ -40,7 +40,7 @@ Para instalar este módulo:
 2. Selecciona la opción **Reporte de nómina personalizado**.
 3. Genera y exporta el reporte según los criterios deseados.
 
-![Descripción del módulo](/src/assets/e_payroll/custom-report-payroll.gif)
+![Descripción del módulo](/assets/e_payroll/custom-report-payroll.gif)
 
 ### 📚 Licencia
 

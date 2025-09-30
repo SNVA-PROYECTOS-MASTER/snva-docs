@@ -62,7 +62,7 @@ Para instalar este módulo:
   - Reglas 
 4. Aplica las estructuras a los contratos de empleados para el cálculo automatizado de la nómina.
 
-![Funcionamiento](/src/assets/e_payroll/salary-rules.gif)
+![Funcionamiento](/assets/e_payroll/salary-rules.gif)
 
 ### 📜 Licencia
 

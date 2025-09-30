@@ -25,7 +25,7 @@ Para identificar los **nombres técnicos** de los módulos:
 2. Desplázate hasta el final y haz clic en **Activar modo desarrollador**.  
 3. Una vez activado, en la vista de **Aplicaciones** verás el nombre técnico debajo del nombre amigable.  
 
-![Modo desarrollador](/src/assets/e_payroll/developer-mode.png)
+![Modo desarrollador](/assets/e_payroll/developer-mode.png)
 
 ---
 
@@ -55,7 +55,7 @@ Para identificar los **nombres técnicos** de los módulos:
    - `nbt_payroll_data`  
    - `nbt_payroll_social_security`  
 
-![Aplicaciones Odoo 17](/src/assets/e_payroll/odoo-17-apps.png)
+![Aplicaciones Odoo 17](/assets/e_payroll/odoo-17-apps.png)
 
 5. En cada módulo haz clic en **Activar**.  
 </details>
@@ -88,7 +88,7 @@ Para identificar los **nombres técnicos** de los módulos:
 
 6. En cada módulo haz clic en **Activar**.  
 
-![Aplicaciones Odoo 18](/src/assets/e_payroll/odoo-18-apps.png)
+![Aplicaciones Odoo 18](/assets/e_payroll/odoo-18-apps.png)
 </details>
 
 ---
